@@ -94,9 +94,9 @@ Myscript.sh.x.c
 Myscript.sh.x to Myscript then double clic on it.
 
 
+
 <details>
     <summary>See result</summary>
-
 
 
 Last login: Wed Nov 24 12:08:07 on ttys000
@@ -158,7 +158,7 @@ chris@iMac-de-chris SHC-3.8.9b %
 
     
 </details>
-    
+
 
 Note: - The software used here is a copyright software which is available free to use. There is no code written by me. This document is only meant to help for how to use this software and create a binary of bash script. Any suggestions regarding the software can be directly send at frosal@fi.upm.es 
 
