@@ -45,6 +45,8 @@ shc Usage: shc [-e date] [-m addr] [-i iopt] [-x cmnd] [-l lopt] [-rvDTCAh] -f s
     CFLAGS  <none>   C compiler flags
 
     Please consult the shc(1) man page.
+[shc Readme](https://github.com/chris1111/SHC-3.8.9b/blob/main/shc.README)
+[Man Page](https://www.datsi.fi.upm.es/~frosal/sources/shc.html)
 
 Below is a example for how to use it.
 Create a .sh script at $HOME directory eg, name Myscript.sh
