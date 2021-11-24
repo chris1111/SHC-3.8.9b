@@ -99,6 +99,7 @@ Myscript.sh.x to Myscript then double clic on it.
     <summary>See result</summary>
 
 
+```
 Last login: Wed Nov 24 12:08:07 on ttys000
 chris@iMac-de-chris ~ % git clone https://github.com/chris1111/SHC-3.8.9b.git
 Cloning into 'SHC-3.8.9b'...
@@ -156,6 +157,12 @@ shc: strip Myscript.sh.x
 shc: chmod go-r Myscript.sh.x
 chris@iMac-de-chris SHC-3.8.9b % 
 
+    
+
+
+
+
+```
     
 </details>
 
