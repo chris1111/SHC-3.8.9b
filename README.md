@@ -98,7 +98,7 @@ Myscript.sh.x.c
 
 ### We just have to rename the ".x"  file as some name.
 Myscript.sh.x to Myscript then double clic on it. This file is a Crypted Script.
-- Note Myscript.sh.x.c can be use in an Xcode Command Line project (Myscript.c)
+- Note Myscript.sh.x.c can be use in an Xcode Command Line project (Myscript.c) ➤[See Project](https://github.com/chris1111/CloverBootloader-Git/commit/d29fbbec095a0a7f9db0789fb6de42586cd28537)
 
 ![SHC](https://user-images.githubusercontent.com/6248794/143289157-2da4f023-aa34-45d2-925c-c9c457521852.png)
 
