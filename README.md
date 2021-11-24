@@ -1,4 +1,4 @@
-# SHC-3.8.9b
+# SHC-3.8.9b [Francisco Javier Rosales García](https://www.datsi.fi.upm.es/~frosal/)
 
 ## How to use SHC Bash Script Compiler
 - Option 1
