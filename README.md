@@ -104,7 +104,7 @@ Myscript.sh.x to Myscript then double clic on it. This file is a Crypted Script.
 
 ![SHC](https://user-images.githubusercontent.com/6248794/143289157-2da4f023-aa34-45d2-925c-c9c457521852.png)
 
-### Make sur clean up directory before create another script.
+
 <details>
     <summary>See result</summary>
 
@@ -175,6 +175,8 @@ chris@iMac-de-chris SHC-3.8.9b %
 ```
     
 </details>
+
+### Make sur clean up directory before create another script.
 
 
 Note: - The software used here is a copyright software which is available free to use. There is no code written by me. This document is only meant to help for how to use this software and create a binary of bash script. Any suggestions regarding the software can be directly send at frosal@fi.upm.es 
