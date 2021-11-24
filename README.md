@@ -1,7 +1,10 @@
 # SHC-3.8.9b 
 ### [Francisco Javier Rosales García](https://www.datsi.fi.upm.es/~frosal/)
 
-## How to use SHC Bash Script Compiler
+## How to use SHC Bash Script Compiler on macOS
+
+### You need install Command Line tools
+
 - Option 1
 ### Command:
 - git clone https://github.com/chris1111/SHC-3.8.9b.git
@@ -91,7 +94,7 @@ Myscript.sh.x
 Myscript.sh.x.c
 
 ### We just have to rename the ".x"  file as some name.
-Myscript.sh.x to Myscript then double clic on it.
+Myscript.sh.x to Myscript then double clic on it. This file is a Crypted Script.
 
 
 
