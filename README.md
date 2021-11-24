@@ -104,7 +104,7 @@ Myscript.sh.x to Myscript then double clic on it. This file is a Crypted Script.
 
 ![SHC](https://user-images.githubusercontent.com/6248794/143289157-2da4f023-aa34-45d2-925c-c9c457521852.png)
 
-
+### Make sur clean up directory before create another script.
 <details>
     <summary>See result</summary>
 
