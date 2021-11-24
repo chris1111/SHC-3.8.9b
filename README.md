@@ -13,7 +13,7 @@
 
 
 ### Create /bin directory in /usr/local 
-- sudo mkdir -p /usr/local/bin)
+- sudo mkdir -p /usr/local/bin
 ### copy shc binary to /usr/local/bin 
 - sudo cp -R $HOME/SHC-3.8.9b/shc /usr/local/bin
 ### give execute permissions 
