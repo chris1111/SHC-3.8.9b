@@ -97,9 +97,68 @@ Myscript.sh.x to Myscript then double clic on it.
 <details>
     <summary>See result</summary>
 
-    ![Screen Shot](https://user-images.githubusercontent.com/6248794/143286479-1c7b172f-1dfd-4bac-910b-a8b6778f8985.png)
+
+
+Last login: Wed Nov 24 12:08:07 on ttys000
+chris@iMac-de-chris ~ % git clone https://github.com/chris1111/SHC-3.8.9b.git
+Cloning into 'SHC-3.8.9b'...
+remote: Enumerating objects: 39, done.
+remote: Counting objects: 100% (39/39), done.
+remote: Compressing objects: 100% (30/30), done.
+remote: Total 39 (delta 14), reused 32 (delta 7), pack-reused 0
+Receiving objects: 100% (39/39), 25.82 KiB | 2.58 MiB/s, done.
+Resolving deltas: 100% (14/14), done.
+chris@iMac-de-chris ~ % cd $HOME/SHC-3.8.9b
+chris@iMac-de-chris SHC-3.8.9b % make
+cc -Wall  shc.c -o shc
+***	?Do you want to probe shc with a test script?
+***	Please try...	make test
+chris@iMac-de-chris SHC-3.8.9b % shc -f *.sh
+Myscript.sh.x.c:337:19: warning: 'ePtAttachDeprecated' is deprecated: PT_ATTACH is deprecated. See PT_ATTACHEXC [-Wdeprecated-declarations]
+                        mine = !ptrace(PTRACE_ATTACH, pid, 0, 0);
+                                       ^
+Myscript.sh.x.c:318:24: note: expanded from macro 'PTRACE_ATTACH'
+#define PTRACE_ATTACH    PT_ATTACH
+                                ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/ptrace.h:86:25: note: expanded from macro 'PT_ATTACH'
+#define PT_ATTACH       ePtAttachDeprecated     /* trace some running process */
+                        ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/ptrace.h:72:22: note: 'ePtAttachDeprecated' has been explicitly marked deprecated here
+        ePtAttachDeprecated __deprecated_enum_msg("PT_ATTACH is deprecated. See PT_ATTACHEXC") = 10
+                            ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h:214:38: note: expanded from macro '__deprecated_enum_msg'
+        #define __deprecated_enum_msg(_msg) __deprecated_msg(_msg)
+                                            ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h:208:48: note: expanded from macro '__deprecated_msg'
+        #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+                                                      ^
+1 warning generated.
+chris@iMac-de-chris SHC-3.8.9b % ls -l  *.sh*
+-rwxr-xr-x@ 1 chris  staff    902 23 Nov 13:40 Myscript.sh
+-rwx--x--x  1 chris  staff  51072 24 Nov 12:13 Myscript.sh.x
+-rw-r--r--  1 chris  staff  14300 24 Nov 12:13 Myscript.sh.x.c
+-rwxr-xr-x  1 chris  staff    155 24 Nov 12:12 pru.sh
+chris@iMac-de-chris SHC-3.8.9b % file  *.sh
+Myscript.sh: POSIX shell script text executable, ASCII text
+pru.sh:      POSIX shell script text executable, ASCII text
+chris@iMac-de-chris SHC-3.8.9b % file  *.sh.x
+Myscript.sh.x: Mach-O 64-bit executable x86_64
+chris@iMac-de-chris SHC-3.8.9b % file  *.sh.x.c
+Myscript.sh.x.c: ASCII text
+chris@iMac-de-chris SHC-3.8.9b % shc -v -r -T -f *.sh
+shc shll=sh
+shc [-i]=-c
+shc [-x]=exec '%s' "$@"
+shc [-l]=
+shc opts=
+shc: cc  Myscript.sh.x.c -o Myscript.sh.x
+shc: strip Myscript.sh.x
+shc: chmod go-r Myscript.sh.x
+chris@iMac-de-chris SHC-3.8.9b % 
+
     
 </details>
+    
 
 Note: - The software used here is a copyright software which is available free to use. There is no code written by me. This document is only meant to help for how to use this software and create a binary of bash script. Any suggestions regarding the software can be directly send at frosal@fi.upm.es 
 
