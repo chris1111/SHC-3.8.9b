@@ -97,7 +97,7 @@ Myscript.sh.x to Myscript then double clic on it.
 <details>
     <summary>See result</summary>
 
-    ![Screen Shot](https://user-images.githubusercontent.com/6248794/143286177-3b479fdd-94cd-4514-aaec-eb288d160aec.png)
+    ![Screen Shot](https://user-images.githubusercontent.com/6248794/143286479-1c7b172f-1dfd-4bac-910b-a8b6778f8985.png)
     
 </details>
 
