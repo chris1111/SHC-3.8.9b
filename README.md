@@ -46,13 +46,13 @@ This will create 2 file as output;
 Myscript.sh.x
 Myscript.sh.x.c
 
-We just have to rename the ".x"  file as some name.
+### We just have to rename the ".x"  file as some name.
 e.g.
-#mv Myscript.sh.x Myscript
-This will create a binary "Myscript", which we will give execute permission and use.
-#chmod +x Myscript
-#sudo mkdir -p /usr/local/bin
-#sudo cp -Rp Myscript /usr/local/bin
+- mv Myscript.sh.x Myscript
+### This will create a binary "Myscript", which we will give execute permission and use.
+- chmod +x Myscript
+- sudo mkdir -p /usr/local/bin
+- sudo cp -Rp Myscript /usr/local/bin
 
 Now we can use it directly.
 #Myscript
