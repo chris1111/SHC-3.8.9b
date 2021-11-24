@@ -8,11 +8,14 @@
 - make
 
 
-- Create /bin directory in /usr/local (sudo mkdir -p /usr/local/bin)
-- copy shc binary to /usr/local/bin (sudo cp -R $HOME/SHC-3.8.9b/shc /usr/local/bin)
-- give execute permissions (chmod +x /usr/local/bin/shc)
+### Create /bin directory in /usr/local 
+- sudo mkdir -p /usr/local/bin)
+### copy shc binary to /usr/local/bin 
+- sudo cp -R $HOME/SHC-3.8.9b/shc /usr/local/bin
+### give execute permissions 
+- chmod +x /usr/local/bin/shc
 
-#shc -h
+- shc -h
 This will give you all the options of the command.
 
 shc Copyright (c) 1994-2003 Francisco Rosales <frosal@fi.upm.es>
