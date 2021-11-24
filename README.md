@@ -46,6 +46,10 @@ shc Usage: shc [-e date] [-m addr] [-i iopt] [-x cmnd] [-l lopt] [-rvDTCAh] -f s
 Below is a example for how to use it.
 Create a .sh script at $HOME directory eg, name Myscript.sh
 
+### Command:
+- shc -v -r -T -f Myscript.sh
+
+
 This will create 2 file as output;
 Myscript.sh.x
 Myscript.sh.x.c
@@ -63,6 +67,39 @@ Now we can use it directly.
 
 ## How to use SHC Bash Script Compiler
 - Option 2
+### Command:
+- git clone https://github.com/chris1111/SHC-3.8.9b.git
+- cd $HOME/SHC-3.8.9b
+- make
+
+Below is a example for how to use it.
+Create a .sh script at $HOME/SHC-3.8.9b directory eg, name Myscript.sh
+
+### Command:
+- cd $HOME/SHC-3.8.9b
+- shc -f *.sh
+- ls -l  *.sh*
+- file  *.sh
+- file  *.sh.x
+- file  *.sh.x.c
+- shc -v -r -T -f *.sh
+
+
+
+This will create 2 file as output; in directory $HOME/SHC-3.8.9b
+Myscript.sh.x
+Myscript.sh.x.c
+
+### We just have to rename the ".x"  file as some name.
+Myscript.sh.x to Myscript then double clic on it.
+
+
+<details>
+    <summary>See result</summary>
+
+    ![Screen Shot](https://user-images.githubusercontent.com/6248794/143286177-3b479fdd-94cd-4514-aaec-eb288d160aec.png)
+    
+</details>
 
 Note: - The software used here is a copyright software which is available free to use. There is no code written by me. This document is only meant to help for how to use this software and create a binary of bash script. Any suggestions regarding the software can be directly send at frosal@fi.upm.es 
 
