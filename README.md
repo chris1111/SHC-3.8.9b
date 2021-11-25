@@ -60,8 +60,7 @@ Myscript.sh.x
 Myscript.sh.x.c
 
 ### We just have to rename the ".x"  file as some name.
-e.g.
-- mv Myscript.sh.x Myscript
+e.g; mv Myscript.sh.x to Myscript
 ### This will create a binary "Myscript", which we will give execute permission and use.
 - chmod +x Myscript
 - sudo mkdir -p /usr/local/bin
