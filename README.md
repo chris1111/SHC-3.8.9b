@@ -6,7 +6,7 @@
 ### You must install the command Line tools to use this program!
 
 ### ➣ Option 1
-### Command:
+### <span style="color: green"> Command: </span>
 git clone https://github.com/chris1111/SHC-3.8.9b.git
 
 cd $HOME/SHC-3.8.9b
