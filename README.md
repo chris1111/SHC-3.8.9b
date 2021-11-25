@@ -133,7 +133,7 @@ sudo cp -Rp $HOME/SHC-3.8.9b/Myscript /usr/local/bin
 
 
 <details>
-    <summary>See result</summary>
+    <summary>See result in the Spoiler</summary>
 
 
 ```
