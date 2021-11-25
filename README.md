@@ -3,7 +3,7 @@
 
 ## How to use SHC Bash Script Compiler on macOS (Two ways available to you)
 
-### You need install Command Line tools
+### You must install the command Line tools to use this program!
 
 ### ➣ Option 1
 ### Command:
