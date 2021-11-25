@@ -20,6 +20,8 @@ sudo mkdir -p /usr/local/bin
 sudo cp -R $HOME/SHC-3.8.9b/shc /usr/local/bin
 ### give execute permissions 
 chmod +x /usr/local/bin/shc
+### Exit Terminal
+exit
 
 shc -h
 This will give you all the options of the command.
