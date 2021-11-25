@@ -5,8 +5,6 @@
 
 ### You must install the command Line tools to use this program!
 
-<span style="color: blue">Command:/span>
-
 ### ➣ Option 1
 ### Command:
 git clone https://github.com/chris1111/SHC-3.8.9b.git
