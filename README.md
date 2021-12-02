@@ -88,6 +88,7 @@ Now we can use it directly.
 
 ## How to use SHC Bash Script Compiler (Option 2)
 - [x] `Option 2`
+
 `Command:`
 
 git clone https://github.com/chris1111/SHC-3.8.9b.git
