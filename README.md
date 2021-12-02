@@ -1,9 +1,13 @@
 # SHC-3.8.9b Generic shell script compiler
 ### Original Author ➤ [Francisco Javier Rosales García](https://www.datsi.fi.upm.es/~frosal/)
 
-## How to use SHC Bash Script Compiler in macOS (Two ways available to you)
+Note|Description
+:----|:----
+How to use SHC Bash Script Compiler in macOS|You must install the command Line tools to use this program!
 
-### You must install the command Line tools to use this program!
+`(Two ways available to you)`
+
+
 
 - [x] `Option 1`
 ### Command:
