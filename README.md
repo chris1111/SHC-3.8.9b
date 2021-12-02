@@ -5,7 +5,7 @@
 
 ### You must install the command Line tools to use this program!
 
-### ☛ Option 1
+- [x] `Option 1`
 ### Command:
 git clone https://github.com/chris1111/SHC-3.8.9b.git
 
@@ -80,7 +80,7 @@ Now we can use it directly.
 <img width="941" alt="Screen Shot" src="https://user-images.githubusercontent.com/6248794/143290784-d0406887-6f87-4fb9-9b82-01a2b371bf46.png">
 
 ## How to use SHC Bash Script Compiler (Option 2)
-### ☛ Option 2
+- [x] `Option 2`
 ### Command:
 git clone https://github.com/chris1111/SHC-3.8.9b.git
 
