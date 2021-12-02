@@ -12,6 +12,7 @@ How to use SHC Bash Script Compiler in macOS|You must install the command Line t
 - [x] `Option 1`
 
 `Command:`
+
 git clone https://github.com/chris1111/SHC-3.8.9b.git
 
 cd $HOME/SHC-3.8.9b
@@ -61,6 +62,7 @@ Below is a example for how to use it.
 Create a .sh script at $HOME directory eg, name Myscript.sh
 
 `Command:`
+
 shc -v -r -T -f Myscript.sh
 
 
@@ -87,6 +89,7 @@ Now we can use it directly.
 ## How to use SHC Bash Script Compiler (Option 2)
 - [x] `Option 2`
 `Command:`
+
 git clone https://github.com/chris1111/SHC-3.8.9b.git
 
 cd $HOME/SHC-3.8.9b
@@ -97,6 +100,7 @@ Below is a example for how to use it.
 Create a .sh script at $HOME/SHC-3.8.9b directory eg, name Myscript.sh
 
 `Command:`
+
 cd $HOME/SHC-3.8.9b
 
 shc -f *.sh
