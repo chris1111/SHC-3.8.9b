@@ -96,32 +96,31 @@ Now we can use it directly.
 
 `Command:`
 
+#### Clone the repository
+```bash
 git clone https://github.com/chris1111/SHC-3.8.9b.git
-
 cd $HOME/SHC-3.8.9b
+```
 
+#### Build
+```bash
 make
+```
 
 Below is a example for how to use it.
 Create a .sh script at $HOME/SHC-3.8.9b directory eg, name Myscript.sh
 
 `Command:`
 
+```bash
 cd $HOME/SHC-3.8.9b
-
 shc -f *.sh
-
 ls -l  *.sh*
-
 file  *.sh
-
 file  *.sh.x
-
 file  *.sh.x.c
-
 shc -v -r -T -f *.sh
-
-
+```
 
 This will create 2 file as output; in directory $HOME/SHC-3.8.9b
 Myscript.sh.x
