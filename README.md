@@ -13,11 +13,16 @@ How to use SHC Bash Script Compiler in macOS|You must install the command Line t
 
 `Command:`
 
+#### Clone the repository
+```bash
 git clone https://github.com/chris1111/SHC-3.8.9b.git
-
 cd $HOME/SHC-3.8.9b
+```
 
+#### Build
+```bash
 make
+```
 
 
 ### Create /bin directory in /usr/local 
