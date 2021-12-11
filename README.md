@@ -84,7 +84,9 @@ Myscript.sh.x
 Myscript.sh.x.c
 
 ### We just have to rename the ".x"  file as some name.
+```bash
 Mv Myscript.sh.x Myscript
+```
 ### This will create a binary "Myscript", which we will give execute permission and use.
 
 ```bash
