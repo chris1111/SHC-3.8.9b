@@ -141,18 +141,26 @@ Myscript.sh.x.c
 
 ### We just have to rename the ".x"  file as some name.
 Myscript.sh.x to Myscript then double clic on it. This file is a Crypted Script.
-- Or rename from command: Mv $HOME/SHC-3.8.9b/Myscript.sh.x $HOME/SHC-3.8.9b/Myscript
 
+### Or rename from command: 
+```bash
+Mv $HOME/SHC-3.8.9b/Myscript.sh.x $HOME/SHC-3.8.9b/Myscript
+```
 
 This way We can use it directly.
 #Myscript
 
-
+```bash
 chmod +x $HOME/SHC-3.8.9b/Myscript
+```
 
+```bash
 sudo mkdir -p /usr/local/bin
+```
 
+```bash
 sudo cp -Rp $HOME/SHC-3.8.9b/Myscript /usr/local/bin
+```
 
 - Note Myscript.sh.x.c can be use in an Xcode Command Line project (Myscript.c) ➤[See Project](https://github.com/chris1111/CloverBootloader-Git/commit/d29fbbec095a0a7f9db0789fb6de42586cd28537)
 
